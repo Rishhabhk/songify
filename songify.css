@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(/bgs.jpg);
+    background-size: cover;
+
+}
+
+
+.navlist{
+    color: rgb(255, 52, 133);
+    list-style: none;
+    font-size: 2vw;
+    margin-top: 1vw;
+    
+    
+}
+.logo{
+    display: flex;
+    float:left;
+    width:12%;
+    margin-left: 1vw;
+    font-family: 'Aboreto', cursive; 
+}
+
+.items{
+    display: flex;
+    width:40%;
+    float: right; 
+    justify-content: space-around;
+}
+.navitem{
+    border: 1px solid rgb(36, 1, 67);
+    border-radius: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;  
+    font-family: 'Aboreto', cursive; 
+    font-size: 1.7vw; 
+}
+.navitem:hover{
+    box-shadow: 0px 0px 10px 2px #5e1a83;
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.action {
+    margin-inline: 2vw;
+    padding: 0.8vw 2vw;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.853);
+    color: aliceblue;
+    width: 2vw;
+    text-align: center;
+    border-radius: 60px;
+    border-color: rgb(255, 52, 133);
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.action:hover {
+    box-shadow: 0px 0px 10px 2px #ff9da2;
+}
+
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.853);
+    margin: 2vw 28vw;
+    border-radius: 8px;
+    opacity: 1;
+    box-shadow: 0vw 0vw 8vw 0vw rgb(255, 52, 133);
+    
+
+}
+
+.box {
+    padding: 1vw 1vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.songitem {
+    color: white;
+    margin: 0.7vw;
+    border-color: rgb(255, 52, 133);
+    border-radius: 50px;
+    border-width: 0.5px;
+    cursor: pointer;
+    width: 35vw;
+    display: flex;
+    transition: width 0.15s;
+    border-style: solid;
+    font-size: 1.5vw;
+    justify-content:space-between;
+    align-items: center;
+    padding: 6px 4px;
+    font-family: 'Aboreto', cursive; 
+}
+
+.songitem:hover {
+    width: 36vw;
+    box-shadow: 0px 0px 10px 2px rgb(255, 0, 123);
+}
+.songitem img{
+    width: 2vw;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+.timestamp{
+    margin-right: 7px;
+}
+
+.songitem i{
+    margin-left: 15px;
+}
+ 
+.bar{
+    text-align: center;
+    margin-top: 1vw;
+    
+   
+
+}
+#myProgressBar{
+    width:30vw;
+    background: #ffffff;
+    appearance: none;
+    border-radius: 30px;
+    height: 3px;
+
+}
+#myProgressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background:  rgb(255, 0, 123);
+    cursor: pointer;
+    border-style: solid;
+    border-color: rgb(36, 1, 67);
+    border-width: 2px;
+    
+  }
+
+
+
+

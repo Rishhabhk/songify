@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/songify.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navlist">
+            <div class="logo">
+               <li class="songify" id="songify">🎶SONGIFY</li>
+            </div> 
+           <!-- <div class="items">
+               <li class="navitem" id="home">Home</li>
+               <li class="navitem" id="favourites">Favourites</li>
+               <li class="navitem" id="profile">My Profile</li>
+            </div>-->
+        </ul>
+    </div>
+    <br>
+    <div class="pp">
+        <ul class="list">
+            <li class="action" id="previous"><i class="fa-solid fa-backward"></i></li>
+            <li class="action" id="masterpp"><i class="fa-solid fa-play" id="masterPlay"></i></li>
+            <li class="action" id="next"><i class="fa-solid fa-forward"></i></li>
+        </ul>
+        <div class="bar">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="songitem">
+                <img src="covers/cover1.jpg" alt="1">
+                <span>Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="0"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/cover2.jpg" alt="1">
+                <span>Believer</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="1"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/cover3.jpg" alt="1">
+                <span>Dusk Till dawn</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="2"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/cover4.jpg" alt="1">
+                <span>hall of fame</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="3"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/cover5.jpg" alt="1">
+                <span>hymn of the weekend</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="4"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/cover6.jpg" alt="1">
+                <span>love me like you do</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="5"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/cover7.jpg" alt="1">
+                <span>what makes you beautiful</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="6"  class=" songItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/695f03e4fd.js" crossorigin="anonymous"></script>
+    <script src="/songify.js"></script>
+</body>
+</html>
